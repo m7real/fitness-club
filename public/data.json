@@ -1,0 +1,44 @@
+[
+  {
+    "id": "e1",
+    "name": "Bench Press",
+    "time": 60,
+    "img": "https://res.cloudinary.com/dgo5dpo9c/image/upload/v1664388463/fitness/bench-press.jpg",
+    "btn_text": "Add to list"
+  },
+  {
+    "id": "e2",
+    "name": "Deadlift",
+    "time": 20,
+    "img": "https://res.cloudinary.com/dgo5dpo9c/image/upload/v1664389035/fitness/deadlift.jpg",
+    "btn_text": "Add to list"
+  },
+  {
+    "id": "e3",
+    "name": "Dumbbell Row",
+    "time": 40,
+    "img": "https://res.cloudinary.com/dgo5dpo9c/image/upload/v1664389320/fitness/dumbbell-row.jpg",
+    "btn_text": "Add to list"
+  },
+  {
+    "id": "e4",
+    "name": "Squat",
+    "time": 60,
+    "img": "https://res.cloudinary.com/dgo5dpo9c/image/upload/v1664389499/fitness/squat.png",
+    "btn_text": "Add to list"
+  },
+  {
+    "id": "e5",
+    "name": "Split Squat",
+    "time": 30,
+    "img": "https://res.cloudinary.com/dgo5dpo9c/image/upload/v1664389629/fitness/split-squat.png",
+    "btn_text": "Add to list"
+  },
+  {
+    "id": "e6",
+    "name": "Aronold Press",
+    "time": 50,
+    "img": "https://res.cloudinary.com/dgo5dpo9c/image/upload/v1664389770/fitness/arnold-press.jpg",
+    "btn_text": "Add to list"
+  }
+]
