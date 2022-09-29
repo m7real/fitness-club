@@ -22,7 +22,11 @@ const Faq = () => {
         </p>
         <h6 className="faq">Q. What are the uses of useEffect hook other than loading API data?</h6>
         <p className="faq">
-          <span className="fw-semibold">A.</span> React works as a component based javascript library.
+          <span className="fw-semibold">A. </span> We can use the useEffect hook to handle side effects in our components. Other than fetching data,
+          we can directly update the DOM and add timers with useEffect hook. We can use settmeout with this. To perform asynchronous operation,
+          useEffect is needed. Rather, if we want to do something that is dependant on other variable or change of state, we must use useEffect. In
+          brie, side effect that runs after every render, side effect runs only once after initial render, after state value changes, after props
+          value change all can be managed by useEffect hook.
         </p>
       </div>
     </div>
