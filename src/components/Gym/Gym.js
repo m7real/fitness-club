@@ -5,8 +5,9 @@ import "./Gym.css";
 
 const Gym = () => {
   const [time, setTime] = useState(0);
-  const handleAddToList = (time) => {
-    console.log(time);
+  const handleAddToList = (addedTime) => {
+    const newTime = time + addedTime;
+    setTime(newTime);
   };
   return (
     <div className="gym">
