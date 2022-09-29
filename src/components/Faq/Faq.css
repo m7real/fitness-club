@@ -5,3 +5,8 @@
   padding: 20px;
   box-shadow: 0 0 5px 0 rgb(128, 128, 128);
 }
+@media only screen and (max-width: 767px) {
+  .faq-container {
+    margin-top: 30px;
+  }
+}

@@ -3,7 +3,7 @@ import "./Faq.css";
 
 const Faq = () => {
   return (
-    <div className="container">
+    <div className="container faq-container">
       <h2 className="mb-4">FAQ</h2>
       <div>
         <h6 className="faq">Q. How does REACT works?</h6>
