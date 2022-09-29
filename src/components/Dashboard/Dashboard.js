@@ -25,7 +25,7 @@ const Dashboard = () => {
           <p>Age</p>
         </div>
       </div>
-      <h4>Add A Break</h4>
+      <h4 className="pb-2">Add A Break</h4>
       <div className="break-container">
         <button>10s</button>
         <button>20s</button>

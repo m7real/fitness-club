@@ -6,7 +6,9 @@ const Activity = ({ activity }) => {
   return (
     <div className="activity">
       <img src={img} alt="" />
-      <h5>{name}</h5>
+      <h5 className="pt-3 pb-4">{name}</h5>
+      <p>Time Required: {time}s</p>
+      <button className="btn btn-dark">{btn_text}</button>
     </div>
   );
 };

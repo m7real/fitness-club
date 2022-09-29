@@ -1,21 +1,24 @@
 .dashboard {
-  border: 3px solid orange;
+  /* border: 3px solid orange; */
   padding: 0 20px;
-  background-color: rgba(255, 153, 0, 0.3);
+  /* background-color: rgba(255, 153, 0, 0.3); */
+  background-color: whitesmoke;
 }
 .dashboard > h4 {
   margin-top: 35px;
 }
 
 .user-info {
-  background-color: wheat;
+  /* background-color: wheat; */
+  background-color: white;
   border-radius: 10px;
   padding: 10px;
   display: flex;
   justify-content: space-around;
 }
 .break-container {
-  background-color: wheat;
+  /* background-color: wheat; */
+  background-color: white;
   border-radius: 20px;
   padding: 20px;
 }
@@ -36,7 +39,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: wheat;
+  /* background-color: wheat; */
+  background-color: white;
   border-radius: 20px;
   padding: 15px;
 }
