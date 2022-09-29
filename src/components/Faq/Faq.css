@@ -1,0 +1,7 @@
+.faq {
+  background-color: whitesmoke;
+  border: 1px solid rgb(235, 232, 232);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 5px 0 rgb(128, 128, 128);
+}
