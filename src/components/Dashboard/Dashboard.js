@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { addToDB, getTime } from "../../utilities/fakeDB";
 import "./Dashboard.css";
-const Dashboard = () => {
+const Dashboard = ({ exerciseTime }) => {
   const [breakTime, setBreakTime] = useState(0);
   const handleAddABreak = (time) => {
     setBreakTime(time);
@@ -48,7 +48,7 @@ const Dashboard = () => {
       <h4>Exercise Details</h4>
       <div className="time">
         <p>Exercise Time</p>
-        <p className="text-secondary">0 seconds</p>
+        <p className="text-secondary">{exerciseTime} seconds</p>
       </div>
       <div className="time">
         <p>Break Time</p>

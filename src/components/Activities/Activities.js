@@ -3,7 +3,7 @@ import logo from "../../images/Logo.svg";
 import Activity from "../Activity/Activity";
 import "./Activities.css";
 
-const Activities = () => {
+const Activities = ({ handleAddToList }) => {
   const [activities, setActivities] = useState([]);
   useEffect(() => {
     fetch("data.json")
@@ -19,7 +19,7 @@ const Activities = () => {
       <h4>Select Your Plan For Today</h4>
       <div className="activities-container">
         {activities.map((activity) => (
-          <Activity key={activity.id} activity={activity}></Activity>
+          <Activity key={activity.id} activity={activity} handleAddToList={handleAddToList}></Activity>
         ))}
       </div>
     </div>
