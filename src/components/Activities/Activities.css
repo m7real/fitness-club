@@ -1,10 +1,17 @@
-.activities-container {
+.activities-wrapper {
   margin: 70px 50px;
   border: 3px solid green;
+  /* padding-left: 40px; */
 }
-.activities-container img {
+.activities-wrapper h2 img {
   width: 36px;
 }
-.activities-container h4 {
+.activities-wrapper h4 {
   margin: 30px auto;
+}
+
+.activities-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* margin: 0 5%; */
 }
