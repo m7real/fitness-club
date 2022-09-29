@@ -10,7 +10,7 @@ const Dashboard = ({ exerciseTime }) => {
     addToDB(time);
   };
   useEffect(() => {
-    const savedTime = getTime();
+    const savedTime = getTime() || 0;
     setBreakTime(savedTime);
   }, []);
 
