@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
 import { addToDB, getTime } from "../../utilities/fakeDB";
 import "./Dashboard.css";
+import "react-toastify/dist/ReactToastify.css";
 const Dashboard = ({ exerciseTime }) => {
   const [breakTime, setBreakTime] = useState(0);
   const handleAddABreak = (time) => {
@@ -11,6 +13,8 @@ const Dashboard = ({ exerciseTime }) => {
     const savedTime = getTime();
     setBreakTime(savedTime);
   }, []);
+
+  const notify = () => toast("Congratulations on Your Completion");
 
   return (
     <div className="dashboard">
@@ -54,7 +58,10 @@ const Dashboard = ({ exerciseTime }) => {
         <p>Break Time</p>
         <p className="text-secondary">{breakTime} seconds</p>
       </div>
-      <button className="btn btn-dark btn-complete">Activity Completed</button>
+      <button onClick={notify} className="btn btn-dark btn-complete">
+        Activity Completed
+      </button>
+      <ToastContainer />
     </div>
   );
 };
