@@ -2,6 +2,24 @@
   display: grid;
   grid-template-columns: 3fr 1fr;
   gap: 20px;
-  min-height: 100vh;
   box-sizing: border-box;
+}
+
+/* Low Resolution PC */
+@media only screen and (min-width: 993px) and (max-width: 1100px) {
+  .gym {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+/* Tablet Devices */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .gym {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+/* Mobile Devices */
+@media only screen and (max-width: 767px) {
+  .gym {
+    grid-template-columns: 1fr;
+  }
 }

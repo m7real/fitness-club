@@ -14,7 +14,7 @@ const Dashboard = ({ exerciseTime }) => {
     setBreakTime(savedTime);
   }, []);
 
-  const notify = () => toast("Congratulations on Your Completion");
+  const notify = () => toast("Congratulations !!!");
 
   return (
     <div className="dashboard">
